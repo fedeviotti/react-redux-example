@@ -1,7 +1,7 @@
 import * as actionTypes from "./actionTypes";
 
 export const saveResult = (result) => {
-    // can change data
+    // can change data before going to reducer
     // const updatedResult = result * 2;
     return {
         type: actionTypes.STORE_RESULT,
