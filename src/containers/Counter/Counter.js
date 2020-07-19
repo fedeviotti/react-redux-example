@@ -29,7 +29,7 @@ class Counter extends Component {
 const mapStateToProps = state => {
     return {
         ctr: state._ctr.counter,
-        storedResults: state._res.result
+        storedResults: state._res.results
     };
 };
 
